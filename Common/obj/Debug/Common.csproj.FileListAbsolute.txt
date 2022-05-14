@@ -6,3 +6,14 @@ C:\Users\kiennb\Desktop\Common\Common\obj\Debug\Common.csproj.CopyComplete
 C:\Users\kiennb\Desktop\Common\Common\obj\Debug\Common.dll
 C:\Users\kiennb\Desktop\Common\Common\obj\Debug\Common.pdb
 C:\Users\kiennb\Desktop\Common\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+E:\KienNB\Common\Common\bin\Debug\Common.dll
+E:\KienNB\Common\Common\bin\Debug\Common.pdb
+E:\KienNB\Common\Common\bin\Debug\QRCoder.dll
+E:\KienNB\Common\Common\bin\Debug\System.ComponentModel.Annotations.dll
+E:\KienNB\Common\Common\bin\Debug\System.Drawing.Common.dll
+E:\KienNB\Common\Common\bin\Debug\System.Drawing.Common.xml
+E:\KienNB\Common\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+E:\KienNB\Common\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+E:\KienNB\Common\Common\obj\Debug\Common.csproj.CopyComplete
+E:\KienNB\Common\Common\obj\Debug\Common.dll
+E:\KienNB\Common\Common\obj\Debug\Common.pdb

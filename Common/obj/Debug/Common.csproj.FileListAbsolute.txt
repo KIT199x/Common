@@ -1,0 +1,8 @@
+C:\Users\kiennb\Desktop\Common\Common\bin\Debug\Common.dll
+C:\Users\kiennb\Desktop\Common\Common\bin\Debug\Common.pdb
+C:\Users\kiennb\Desktop\Common\Common\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\kiennb\Desktop\Common\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\kiennb\Desktop\Common\Common\obj\Debug\Common.csproj.CopyComplete
+C:\Users\kiennb\Desktop\Common\Common\obj\Debug\Common.dll
+C:\Users\kiennb\Desktop\Common\Common\obj\Debug\Common.pdb
+C:\Users\kiennb\Desktop\Common\Common\obj\Debug\Common.csproj.AssemblyReference.cache

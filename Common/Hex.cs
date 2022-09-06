@@ -8,7 +8,11 @@ namespace Common
 {
     public class Hex
     {
-
+        /// <summary>
+        /// var string2hex=Common.Hex.Text2Hex("STRING");
+        /// </summary>
+        /// <param name="hex"></param>
+        /// <returns></returns>
         public static string Text2Hex(string hex)
         {
             byte[] ba = Encoding.Default.GetBytes(hex);
@@ -16,7 +20,12 @@ namespace Common
             hexString = hexString.Replace("-", " ");
             return hexString;
         }
-
+        /// <summary>
+        ///  byte[] data=Common.Hex.Hext2Text("HEX");
+        ///  string hex2string = Encoding.ASCII.GetString(data);
+        /// </summary>
+        /// <param name="hex"></param>
+        /// <returns></returns>
         public static byte[] Hext2Text(string hex)
         {
             hex = hex.Replace(" ", "");

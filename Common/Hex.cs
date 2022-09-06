@@ -21,12 +21,11 @@ namespace Common
             return hexString;
         }
         /// <summary>
-        ///  byte[] data=Common.Hex.Hext2Text("HEX");
-        ///  string hex2string = Encoding.ASCII.GetString(data);
+        ///  var data=Common.Hex.Hext2Text("HEX");
         /// </summary>
         /// <param name="hex"></param>
         /// <returns></returns>
-        public static byte[] Hext2Text(string hex)
+        public static string Hext2Text(string hex)
         {
             hex = hex.Replace(" ", "");
             byte[] raw = new byte[hex.Length / 2];
@@ -34,7 +33,8 @@ namespace Common
             {
                 raw[i] = Convert.ToByte(hex.Substring(i * 2, 2), 16);
             }
-            return raw;
+            string hexStrings = Encoding.ASCII.GetString(raw);
+            return hexStrings;
         }
     }
 }

@@ -11,11 +11,11 @@ namespace Common
         /// <summary>
         /// var string2hex=Common.Hex.Text2Hex("STRING");
         /// </summary>
-        /// <param name="hex"></param>
+        /// <param name="hex">Chữ cần mã hóa</param>
         /// <returns></returns>
-        public static string Text2Hex(string hex)
+        public static string Text2Hex(string text)
         {
-            byte[] ba = Encoding.Default.GetBytes(hex);
+            byte[] ba = Encoding.Default.GetBytes(text);
             var hexString = BitConverter.ToString(ba);
             hexString = hexString.Replace("-", " ");
             return hexString;
@@ -23,7 +23,7 @@ namespace Common
         /// <summary>
         ///  var data=Common.Hex.Hext2Text("HEX");
         /// </summary>
-        /// <param name="hex"></param>
+        /// <param name="hex">Chữ đã được mã hóa</param>
         /// <returns></returns>
         public static string Hext2Text(string hex)
         {

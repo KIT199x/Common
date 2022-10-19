@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Common
 {
-    public static class EncryptDecrypt
+    public static class AES
     {
         /// <summary>
         /// Mã hóa

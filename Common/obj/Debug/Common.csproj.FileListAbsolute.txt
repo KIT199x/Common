@@ -17,3 +17,16 @@ E:\KienNB\Common\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 E:\KienNB\Common\Common\obj\Debug\Common.csproj.CopyComplete
 E:\KienNB\Common\Common\obj\Debug\Common.dll
 E:\KienNB\Common\Common\obj\Debug\Common.pdb
+C:\Users\nguye\OneDrive\Documents\KienNB\API\API\bin\Debug\net5.0\Common.dll
+C:\Users\nguye\OneDrive\Documents\KienNB\API\API\bin\Debug\net5.0\Common.pdb
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\obj\Debug\Common.csproj.CopyComplete
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\obj\Debug\Common.dll
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\obj\Debug\Common.pdb
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\bin\Debug\Common.dll
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\bin\Debug\Common.pdb
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\bin\Debug\QRCoder.dll
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\bin\Debug\System.Drawing.Common.dll
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\bin\Debug\System.Drawing.Common.xml

@@ -57,9 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Email.cs" />
-    <Compile Include="EncryptDecrypt.cs" />
+    <Compile Include="AES.cs" />
     <Compile Include="IP.cs" />
     <Compile Include="Language.cs" />
+    <Compile Include="MD5.cs" />
     <Compile Include="Money.cs" />
     <Compile Include="Password.cs" />
     <Compile Include="Phone.cs" />

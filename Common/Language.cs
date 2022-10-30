@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Net;
 using System.Web;
 
@@ -7,29 +8,25 @@ namespace Common
     public static class Language
     {
         /// <summary>
-        /// Dịch ngôn ngữ
+        /// 
         /// </summary>
-        /// <param name="word">Từ cần dịch</param>
-        /// <param name="from">dịch từ ngôn ngữ vd: en</param>
-        /// <param name="to">Ngôn ngữ dịch vd: en</param>
-        /// <returns>Ngôn ngữ cần dịch hoặc lỗi nếu có</returns>
-        public static string Translate(string word, string from, string to)
+        /// <param name="word"></param>
+        /// <param name="translateTo"></param>
+        /// <returns></returns>
+        public static string Translate(string word, string translateTo = "vi")
         {
-            var url = $"https://translate.googleapis.com/translate_a/single?client=gtx&sl={from}&tl={to}&dt=t&q={HttpUtility.UrlEncode(word)}";
-            var webClient = new WebClient
+            HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(String.Format("https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl={1}&dt=t&q={0}", HttpUtility.UrlEncode(word), translateTo));
+            request.Method = "GET";
+            String responseJson = String.Empty;
+            using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
             {
-                Encoding = System.Text.Encoding.UTF8
-            };
-            var result = webClient.DownloadString(url);
-            try
-            {
-                result = result.Substring(4, result.IndexOf("\"", 4, StringComparison.Ordinal) - 4);
-                return result;
+                Stream dataStream = response.GetResponseStream();
+                StreamReader reader = new StreamReader(dataStream);
+                responseJson = reader.ReadToEnd();
+                reader.Close();
+                dataStream.Close();
             }
-            catch
-            {
-                return "Có lỗi khi dịch ngôn ngữ từ '" + from + "' sang ngôn ngữ '" + to + "'";
-            }
+            return responseJson.ToString().Replace('[', ' ').Replace(']', ' ').Split(',')[0].Replace('"', ' ').Trim();
         }
     }
 }

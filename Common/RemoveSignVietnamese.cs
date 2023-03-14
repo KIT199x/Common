@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Common
 {
-    public static class VietNamtoEnglish
+    public static class RemoveSignVietnamese
     {
         private static readonly string[] VietnameseSigns = new string[]
            {
@@ -31,7 +31,7 @@ namespace Common
         /// </summary>
         /// <param name="str"></param>
         /// <returns>Kết quả sau khi xóa dấu tiếng việt</returns>
-        public static string RemoveSignVietnamese(string str)
+        public static string RemoveSign(string str)
         {
             for (int i = 1; i < VietnameseSigns.Length; i++)
             {

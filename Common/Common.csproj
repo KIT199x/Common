@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="QRCoder, Version=1.4.3.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
@@ -73,7 +76,8 @@
     <Compile Include="Phone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QRcode.cs" />
-    <Compile Include="VietNamtoEnglish.cs" />
+    <Compile Include="RemoveSignVietnamese.cs" />
+    <Compile Include="VietQR.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

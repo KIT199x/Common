@@ -13,7 +13,7 @@ namespace Common
 {
     public static class Barcode
     {
-        public static string Translate(string _data)
+        public static string CreateBarcode(string _data)
         {
             var width = 450;
             var height = 100;

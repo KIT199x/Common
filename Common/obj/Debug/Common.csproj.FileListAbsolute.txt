@@ -30,3 +30,9 @@ C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\bin\Debug\QRCoder.dll
 C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\bin\Debug\System.ComponentModel.Annotations.dll
 C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\bin\Debug\System.Drawing.Common.dll
 C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\bin\Debug\System.Drawing.Common.xml
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\bin\Debug\zxing.dll
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\bin\Debug\zxing.presentation.dll
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\bin\Debug\zxing.xml
+C:\Users\nguye\OneDrive\Documents\KienNB\Common\Common\bin\Debug\zxing.presentation.xml

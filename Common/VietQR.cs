@@ -19,7 +19,7 @@ namespace Common
         /// <param name="noiDung">Nội dung chuyển khoản: Nguyen Ba Kien Chuyen Khoan</param>
         /// <param name="soTaiKhoan">Số tài khoản : 9704229254607018</param>
         /// <param name="hoVaTen">Họ và tên: NGUYEN BA KIEN</param>
-        /// <param name="acqId">Đầu số thẻ: 970432</param>
+        /// <param name="acqId">BIN thẻ: 970422 tham khảo tại link https://bit.ly/BIN-Bank</param>
         /// <param name="maMau">Mã màu: #000</param>
         /// <param name="imageLogo">Logo giữa QR: định dạng base64</param>
         /// <param name="logoBank">Logo ngân hàng nếu hiển thị tên và số tiền: url logo bank</param>

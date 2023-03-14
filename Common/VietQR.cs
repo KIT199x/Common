@@ -65,33 +65,33 @@ namespace Common
             }
         }
     }
-}
 
-public class BodyVietQR
-{
-    public string accountName { get; set; }
-    public string accountNo { get; set; }
-    public string acqId { get; set; }
-    public string addInfo { get; set; }
-    public string amount { get; set; }
-    public string colorDark { get; set; }
-    public string logo { get; set; }
-    public string template { get; set; }
-    public string theme { get; set; }
-    public string logoBank { get; set; }
-}
-#region Convert json VietQR to Model
-// Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
-public class Data
-{
-    public string qrDataURL { get; set; }
-    public object qrCode { get; set; }
-}
+    public class BodyVietQR
+    {
+        public string accountName { get; set; }
+        public string accountNo { get; set; }
+        public string acqId { get; set; }
+        public string addInfo { get; set; }
+        public string amount { get; set; }
+        public string colorDark { get; set; }
+        public string logo { get; set; }
+        public string template { get; set; }
+        public string theme { get; set; }
+        public string logoBank { get; set; }
+    }
+    #region Convert json VietQR to Model
+    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
+    public class Data
+    {
+        public string qrDataURL { get; set; }
+        public object qrCode { get; set; }
+    }
 
-public class Root
-{
-    public string code { get; set; }
-    public string desc { get; set; }
-    public Data data { get; set; }
+    public class Root
+    {
+        public string code { get; set; }
+        public string desc { get; set; }
+        public Data data { get; set; }
+    }
+    #endregion
 }
-#endregion

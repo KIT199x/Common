@@ -12,9 +12,9 @@ namespace Common
         /// Chuyển số thành chữ
         /// </summary>
         /// <param name="inputNumber"></param>
-        /// <param name="isVnd"></param>
+        /// <param name="unit"></param>
         /// <returns></returns>
-        public static string NumberToText(double inputNumber, bool isVnd = true)
+        public static string NumberToText(double inputNumber, string unit = " vnđ")
         {
             string[] unitNumbers = new string[] { "không", "một", "hai", "ba", "bốn", "năm", "sáu", "bảy", "tám", "chín" };
             string[] placeValues = new string[] { "", "nghìn", "triệu", "tỷ" };
@@ -86,7 +86,7 @@ namespace Common
             }
             result = result.Trim();
             if (isNegative) result = "Âm " + result;
-            return result + (isVnd ? " đồng" : " USD");
+            return result + unit;
         }
     }
 }
